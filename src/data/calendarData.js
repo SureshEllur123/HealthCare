@@ -1,0 +1,43 @@
+export const calendarData = {
+  days: [
+    { number: 26, hasAppointment: false, isCurrent: false },
+    { number: 27, hasAppointment: false, isCurrent: false },
+    { number: 28, hasAppointment: false, isCurrent: false },
+    { number: 29, hasAppointment: false, isCurrent: false },
+    { number: 30, hasAppointment: false, isCurrent: false },
+    { number: 1, hasAppointment: true, appointmentTime: '09:00', isCurrent: false },
+    { number: 2, hasAppointment: false, isCurrent: false },
+    { number: 3, hasAppointment: false, isCurrent: false },
+    { number: 4, hasAppointment: false, isCurrent: false },
+    { number: 5, hasAppointment: false, isCurrent: false },
+    { number: 6, hasAppointment: true, appointmentTime: '11:00', isCurrent: false },
+    { number: 7, hasAppointment: false, isCurrent: false },
+    { number: 8, hasAppointment: false, isCurrent: false },
+    { number: 9, hasAppointment: false, isCurrent: false },
+    { number: 10, hasAppointment: false, isCurrent: false },
+    { number: 11, hasAppointment: true, appointmentTime: '13:00', isCurrent: false },
+    { number: 12, hasAppointment: false, isCurrent: false },
+    { number: 13, hasAppointment: false, isCurrent: false },
+    { number: 14, hasAppointment: false, isCurrent: false },
+    { number: 15, hasAppointment: false, isCurrent: false },
+    { number: 16, hasAppointment: true, appointmentTime: '15:00', isCurrent: false },
+    { number: 17, hasAppointment: false, isCurrent: false },
+    { number: 18, hasAppointment: false, isCurrent: false },
+    { number: 19, hasAppointment: false, isCurrent: false },
+    { number: 20, hasAppointment: false, isCurrent: false },
+    { number: 21, hasAppointment: false, isCurrent: false },
+    { number: 22, hasAppointment: false, isCurrent: false },
+    { number: 23, hasAppointment: false, isCurrent: false },
+    { number: 24, hasAppointment: false, isCurrent: false },
+    { number: 25, hasAppointment: false, isCurrent: false },
+    { number: 26, hasAppointment: false, isCurrent: true },
+    { number: 27, hasAppointment: false, isCurrent: false },
+    { number: 28, hasAppointment: false, isCurrent: false },
+    { number: 29, hasAppointment: false, isCurrent: false },
+    { number: 30, hasAppointment: false, isCurrent: false }
+  ],
+  appointments: [
+    { time: '09:00', title: 'Dentist', doctor: 'Dr. Sarah Johnson' },
+    { time: '13:00', title: 'Physiotherapy Appointment', doctor: 'Dr. Michael Chen' }
+  ]
+};

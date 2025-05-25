@@ -1,0 +1,132 @@
+.anatomy-section {
+  flex: 1;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 1rem;
+  position: relative;
+}
+
+.anatomy-image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.anatomy-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.anatomy-marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.marker-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.marker-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.anatomy-marker.healthy .marker-dot {
+  background-color: #48bb78;
+}
+
+.anatomy-marker.healthy .marker-label {
+  background-color: rgba(72, 187, 120, 0.1);
+  color: #48bb78;
+}
+
+.anatomy-marker.warning .marker-dot {
+  background-color: #ed8936;
+}
+
+.anatomy-marker.warning .marker-label {
+  background-color: rgba(237, 137, 54, 0.1);
+  color: #ed8936;
+}
+
+.anatomy-marker.critical .marker-dot {
+  background-color: #f56565;
+}
+
+.anatomy-marker.critical .marker-label {
+  background-color: rgba(245, 101, 101, 0.1);
+  color: #f56565;
+}
+/* Add to your AnatomySection.css */
+.anatomy-model-container {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background: #f0f0f0;
+}
+
+.error-fallback, .webgl-error, .error-overlay {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #d32f2f;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.fallback-image {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.fallback-image img {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+.anatomy-section {
+  flex: 3;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 1rem;
+  position: relative;
+  height: 100%;
+}
+
+.anatomy-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.anatomy-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

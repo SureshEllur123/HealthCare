@@ -1,0 +1,36 @@
+.appointment-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  background-color: #f8fafc;
+}
+
+.appointment-card.completed {
+  background-color: rgba(72, 187, 120, 0.1);
+}
+
+.card-icon {
+  font-size: 1.2rem;
+}
+
+.appointment-card.completed .card-icon {
+  color: #48bb78;
+}
+
+.appointment-card:not(.completed) .card-icon {
+  color: #4299e1;
+}
+
+.card-content h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 0.25rem;
+}
+
+.card-content p {
+  font-size: 0.75rem;
+  color: #718096;
+}

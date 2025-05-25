@@ -1,0 +1,40 @@
+.upcoming-schedule {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.schedule-header {
+  margin-bottom: 1.5rem;
+}
+
+.schedule-header h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.schedule-days {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.schedule-day {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.day-title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #a0aec0;
+}
+
+.day-appointments {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
